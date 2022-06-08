@@ -1,3 +1,6 @@
+const music = new Audio('proclaimers.mp3');
+music.play();
+
 const template = document.getElementById("navbar");
 
 var navcode = [

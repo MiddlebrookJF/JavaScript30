@@ -30,7 +30,10 @@
   </div>
 
   <p id = "done"></p>
+  <audio src="proclaimers.mp3"></audio>
   <script>
+    const audio = document.querySelector(`audio`);
+    audio.play();
     var deadline = new Date("june 15, 2022 12:00:00").getTime();
   </script>
   <script src="countdown.js"> </script>
