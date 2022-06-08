@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="countdown.css">
+</head>
+
+<body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div class="navbar" id="navbar">
+  <script src="structure.js"></script>
+
+  <h1>Moving to Madison!</h1>
+  <div id="clockdiv">
+    <div>
+      <span class="days" id="day"></span>
+      <div class="smalltext">Days</div>
+    </div>
+    <div>
+      <span class="hours" id="hour"></span>
+      <div class="smalltext">Hours</div>
+    </div>
+    <div>
+      <span class="minutes" id="minute"></span>
+      <div class="smalltext">Minutes</div>
+    </div>
+    <div>
+      <span class="seconds" id="second"></span>
+      <div class="smalltext">Seconds</div>
+    </div>
+  </div>
+
+  <p id = "done"></p>
+  <script>
+    var deadline = new Date("june 15, 2022 12:00:00").getTime();
+  </script>
+  <script src="countdown.js"> </script>
+
+</body>
+</html>

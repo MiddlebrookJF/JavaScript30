@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="countdown.css">
+</head>
+
+<body>
+  <script src="structure.js"></script>
+
+  <h1>Countdown to Epic</h1>
+  <div id="clockdiv">
+    <div>
+      <span class="days" id="day"></span>
+      <div class="smalltext">Days</div>
+    </div>
+    <div>
+      <span class="hours" id="hour"></span>
+      <div class="smalltext">Hours</div>
+    </div>
+    <div>
+      <span class="minutes" id="minute"></span>
+      <div class="smalltext">Minutes</div>
+    </div>
+    <div>
+      <span class="seconds" id="second"></span>
+      <div class="smalltext">Seconds</div>
+    </div>
+  </div>
+
+  <p id = "done"></p>
+  <script>
+    var deadline = new Date("july 5, 2022 07:45:00").getTime();
+  </script>
+  <script src="countdown.js"></script>
+
+</body>
+</html>
